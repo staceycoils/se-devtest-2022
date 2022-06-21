@@ -2,9 +2,11 @@ import React from 'react'
 
 export default function Partners() {
   return (
-    <div class='text-center mt-40 mx-auto'>
-        <h3 class="text-5xl py-4 md:text-6xl">Partners</h3>
-        <p class='pb-8 mx-16 md:mx-auto md:text-2xl'>We focus on ergonomics and meeting you where you work. 
+    <div id='partners' class='text-center mt-40 mx-auto'>
+        <h3 class="text-5xl py-4 
+            md:text-6xl">Partners</h3>
+        <p class='pb-8 mx-16 
+            md:mx-auto md:text-2xl'>We focus on ergonomics and meeting you where you work. 
         <br />
         It's only a keystroke away.</p>
         <section class='grid grid-cols-3 gap-4 mx-12 mb-12 place-items-center 

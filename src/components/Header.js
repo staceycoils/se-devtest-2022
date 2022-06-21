@@ -3,16 +3,23 @@ import images from '../imageindex'
 
 export default function Header() {
   return (
-    <div class="text-center grid grid-rows-7 w-full mt-12 md:mt-20">
-      <h3 class="text-5xl mx-16 py-4
-          md:text-7xl md:w-[800px] leading-tight md:mx-auto md:font-medium">Work at the speed of thought</h3>
-      <p class="px-12 pb-12 text-base md:text-2xl md:w-[800px] md:mx-auto md:pb-24 md:pt-12">
+    <div id='header' class="text-center grid grid-rows-7 w-full mt-12 
+        md:mt-20">
+      <h3 class="text-5xl mx-16 my-4 leading-tight
+          md:text-7xl md:w-[800px] md:mx-auto md:font-medium">
+        Work at the speed of thought</h3>
+      <p class="mx-12 pb-12 
+          md:text-2xl md:w-[800px] md:mx-auto md:pb-24 md:pt-12">
         Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan 
         <br class='md:hidden'/> their schedule.</p>
       <section class='w-44 mx-auto
           md:w-fit'>
-        <button class="bg-custom-lilac w-44 h-16 mb-4 justify-self-center font-bold md:mr-4">Try For Free</button>
-        <button class="border w-44 h-16 justify-self-center font-bold md:ml-4">Learn More</button>
+        <button class="bg-custom-lilac w-44 h-16 mb-4 justify-self-center font-bold 
+            md:mr-4">
+          Try For Free</button>
+        <button class="border w-44 h-16 justify-self-center font-bold 
+            md:ml-4">
+          Learn More</button>
       </section>
       <section class="relative overflow-x-hidden">
         <p class='absolute h-[300px] w-full top-20 bg-gradient-to-t from-black to-transparent z-50

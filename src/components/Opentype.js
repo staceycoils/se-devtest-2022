@@ -3,9 +3,10 @@ import images from '../imageindex'
 
 export default function Opentype() {
   return (
-    <div class='bg-custom-grey text-center pt-32 px-auto
-        md:h-[370px] md:p-0 md:mb-40 md:mx-auto md:overflow-hidden md:grid md:grid-cols-2
-        w-full md:x-[600px] lg:x-[780px] lg:rounded-3xl  xl:w-[1219px]' >
+    <div id='opentype' class='bg-custom-grey text-center pt-32 px-auto w-full 
+        md:h-[370px] md:p-0 md:mb-40 md:mx-auto md:overflow-hidden md:grid md:grid-cols-2 md:x-[600px] 
+        lg:x-[780px] lg:rounded-3xl  
+        xl:w-[1219px]' >
       <p>
         <h3 class="text-5xl py-4 w-96 mx-auto
           md:w-[350px] md:h-[124px] md:py-0 md:text-4xl md:mt-20 md:justify-self-center md:mx-auto

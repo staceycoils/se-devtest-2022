@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer class='w-full px-10 pb-40 text-xl font-bold
-        md:grid md:grid-cols-3 lg:grid-cols-6 md:mx-auto md:pb-20
-        md:x-[600px] lg:x-[780px] xl:w-[1219px]'>
-      <p class='mt-40 mx-10 md:mt-16'>Fingertipe
+    <footer id='footer' class='w-full px-10 pb-40 text-xl font-bold
+        md:grid md:grid-cols-3 lg:grid-cols-6 md:mx-auto md:pb-20 md:x-[600px] 
+        lg:x-[780px] 
+        xl:w-[1219px]'>
+      <p class='mt-40 mx-10 
+          md:mt-16'>Fingertipe
         <ul class='text-base'>
           <li class='mt-8'>Home</li>
           <li class='mt-4'>Examples</li>
@@ -31,7 +33,8 @@ export default function Footer() {
       </p>
       <br class='hidden lg:block' />
       <div class='mt-20 mx-auto grid grid-cols-4 items-center gap-y-3 max-w-20
-          md:col-span-3 lg:col-span-2'>
+          md:col-span-3 
+          lg:col-span-2'>
         <img src={ require('./Vectors/bx_bx-map.png') } alt='map marker' class='justify-self-center'/>
         <p class='col-span-3 text-sm'>
           7480 Mockingbird Hill undefined
