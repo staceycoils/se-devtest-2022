@@ -3,15 +3,17 @@ import images from '../imageindex'
 
 export default function Opentype() {
   return (
-    <div class='bg-custom-grey text-center w-full pt-32 px-16
-        md:w-[1219px] md:h-[370px] md:p-0 md:mb-40 md:mx-auto md:overflow-hidden md:grid md:grid-cols-2 md:rounded-3xl'>
+    <div class='bg-custom-grey text-center pt-32 px-16
+        md:h-[370px] md:p-0 md:mb-40 md:mx-auto md:overflow-hidden md:grid md:grid-cols-2
+        w-full md:x-[600px] lg:x-[780px] lg:rounded-3xl  xl:w-[1219px]' >
       <p>
-        <h3 class="text-4xl py-4
-          md:w-[500px] md:h-[124px] md:py-0 md:text-5xl md:mt-20 md:justify-self-center md:mx-auto">
+        <h3 class="text-4xl py-4 w-64 mx-auto
+          md:w-[350px] md:h-[124px] md:py-0 md:text-4xl md:mt-20 md:justify-self-center md:mx-auto
+          lg:text-5xl lg:w-[500px] ">
             OpenType features and Variable Fonts
         </h3>
         <button class="bg-custom-lilac w-44 h-12 mt-8 mb-20 justify-self-center font-bold
-            md:mr-[250px]">Try For Free</button>
+            lg:mr-[250px]">Try For Free</button>
       </p>
       <img src={images.prototyping} alt='prototype' class='
           md:w-[589px] md:mt-8 md:justify-self-end '/>

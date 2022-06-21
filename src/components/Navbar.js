@@ -3,8 +3,8 @@ import images from '../imageindex'
 
 export default function Navbar() {
   return (
-    <div id='header' class='sticky flex flex-row items-center h-24 w-full
-        md:mt-4 md:h-16 md:w-[600px] md:mx-auto lg:w-[1000px]'>
+    <div id='header' class='sticky flex flex-row items-center h-24 w-fit
+        md:mt-4 md:h-16 md:w-[600px] mx-auto lg:w-[1000px] transition-all duration-500'>
       <img src={images.logo} alt='page logo' class='mx-6 w-40 
           md:ml-0 md:w-48'/>
       <section class='hidden font-medium text-center

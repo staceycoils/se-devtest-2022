@@ -8,7 +8,7 @@ export default function Partners() {
         <br />
         It's only a keystroke away.</p>
         <section class='grid grid-cols-3 gap-4 mx-2 mb-12 place-items-center
-            md:grid-cols-6 md:mx-96'>
+            md:grid-cols-6 md:max-w-[800px] md:mx-auto'>
           <img src={ require('./Vectors/logos_apple-app-store.png') } alt='app store logo'/>
           <img src={ require('./Vectors/logos_apiary.png') } alt='apiary logo'/>
           <img src={ require('./Vectors/logos_android-icon.png') } alt='android logo'/>
