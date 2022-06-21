@@ -5,8 +5,8 @@ export default function Gallery() {
   return (
     <div class='text-center w-full mx-auto mt-32 
         md:pt-40 lg:mx-auto xl:w-fit'>
-        <h3 class="text-3xl py-4 md:text-6xl">Gallery</h3>
-        <p class='pb-8'>We focus on ergonomics and meeting you where you work. 
+        <h3 class="text-5xl py-4 md:text-6xl">Gallery</h3>
+        <p class='pb-8 mx-auto w-80 md:text-2xl md:w-[800px]'>We focus on ergonomics and meeting you where you work. 
         <br />
         It's only a keystroke away.</p>
         <section id='webgallerytop' class='hidden md:flex md:gap-5 md:mx-auto md:justify-center md:mt-8

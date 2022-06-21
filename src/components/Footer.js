@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer class='w-full px-10 pb-40 text-xl font-medium
+    <footer class='w-full px-10 pb-40 text-xl font-bold
         md:grid md:grid-cols-3 lg:grid-cols-6 md:mx-auto md:pb-20
         md:x-[600px] lg:x-[780px] xl:w-[1219px]'>
       <p class='mt-40 mx-10 md:mt-16'>Fingertipe
