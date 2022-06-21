@@ -4,7 +4,7 @@ import images from '../imageindex'
 export default function Testimonials() {
   return (
     <div class='text-center w-full my-40 px-16
-        md:grid md:grid-cols-2 md:gap-8'>
+        lg:grid lg:gap-8 lg:grid-cols-2'>
       <h3 class="text-3xl py-4 md:col-span-2">Testimonials</h3>
       <span id='mobTestimonials' class='md:hidden'>
         <section class='border border-gray-500 rounded-xl my-6 p-8 flex flex-wrap' >
