@@ -19,7 +19,8 @@ export default function Navbar() {
       <section class="w-40 flex flex-row 
           md:block md:w-32 md:ml-auto">
         <button class="border rounded-sm h-12 basis-2/3 min-w-32 font-bold 
-            md:w-32">
+            md:w-32
+            hover:bg-gray-700 transition-all duration-500">
             Login
         </button>
         <button class="basis-1/3 pl-3 

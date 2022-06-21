@@ -55,7 +55,8 @@ export default function Gallery() {
             <img src={images.galleryTen} alt='pic' class='rounded-xl object-cover h-full w-auto'/>
           </p>
         </section>
-        <button class="border-2 mt-8 w-44 h-16 justify-self-center font-bold">See More</button>
+        <button class="border-2 mt-8 w-44 h-16 justify-self-center font-bold
+            hover:bg-gray-700 transition-all duration-500">See More</button>
     </div>
   )
 }

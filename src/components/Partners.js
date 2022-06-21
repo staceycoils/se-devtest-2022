@@ -18,7 +18,8 @@ export default function Partners() {
           <img src={ require('./Vectors/logos_airbnb.png') } alt='airbnb logo'/>
           <img src={ require('./Vectors/logos_ibm.png') } alt='ibm logo'/>
         </section>
-      <button class="border-2 w-44 h-16 justify-self-center font-bold">All Partners</button>
+      <button class="border-2 w-44 h-16 justify-self-center font-bold
+          hover:bg-gray-700 transition-all duration-500">All Partners</button>
     </div>
   )
 }

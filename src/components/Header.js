@@ -15,10 +15,12 @@ export default function Header() {
       <section class='w-44 mx-auto
           md:w-fit'>
         <button class="bg-custom-lilac w-44 h-16 mb-4 justify-self-center font-bold 
-            md:mr-4">
+            md:mr-4 
+            hover:bg-gray-700 transition-all duration-500">
           Try For Free</button>
         <button class="border w-44 h-16 justify-self-center font-bold 
-            md:ml-4">
+            md:ml-4
+            hover:bg-gray-700 transition-all duration-500">
           Learn More</button>
       </section>
       <section class="relative overflow-x-hidden">
