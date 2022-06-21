@@ -2,12 +2,14 @@ import React from 'react'
 
 export default function Partners() {
   return (
-    <div class='text-center w-full mt-40 px-16'>
-        <h3 class="text-3xl py-4">Partners</h3>
-        <p class='pb-8'>We focus on ergonomics and meeting you where you work. 
+    <div id='partners' class='text-center mt-40 mx-auto'>
+        <h3 class="text-5xl py-4 
+            md:text-6xl">Partners</h3>
+        <p class='pb-8 mx-16 
+            md:mx-auto md:text-2xl'>We focus on ergonomics and meeting you where you work. 
         <br />
         It's only a keystroke away.</p>
-        <section class='grid grid-cols-3 gap-4 mx-2 mb-12 place-items-center
+        <section class='grid grid-cols-3 gap-4 mx-12 mb-12 place-items-center 
             md:grid-cols-6 md:max-w-[800px] md:mx-auto'>
           <img src={ require('./Vectors/logos_apple-app-store.png') } alt='app store logo'/>
           <img src={ require('./Vectors/logos_apiary.png') } alt='apiary logo'/>
