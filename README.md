@@ -18,7 +18,9 @@ To view a development build, run <code>npm start</code>. When ready, use the pro
 
 ### Production build
 
-To access the final version of the design, run <code>npm run build</code>. When this has finished, you will be provided with the <code>serve -s build</code> command to host the project locally. When this completes, you will be given the port number the project is being hosted on.
+To access the final version of the design, run <code>npm run build</code>. When this has finished, follow the commands given by the terminal to host the project locally. Once complete, this will then give you the local address for the project.
+
+The build can be ejected by running <code>npm run eject</code>.
 
 ****************************
 
