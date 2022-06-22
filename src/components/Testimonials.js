@@ -5,8 +5,8 @@ export default function Testimonials() {
   return (
     <div id='testimonials' class='text-center w-full my-40 px-16
         lg:grid lg:gap-8 lg:grid-cols-2'>
-      <h3 class="text-5xl my-4 
-          md:col-span-2 md:text-6xl">Testimonials</h3>
+      <h3 class='text-5xl my-4 
+          md:col-span-2 md:text-6xl'>Testimonials</h3>
       <span id='mobTestimonials' class='md:hidden'>
         <section class='border border-gray-500 rounded-xl my-6 p-8 flex flex-wrap' >
           <img src={images.clientOneMob} alt='client one' class='rounded-full w-12'/>
