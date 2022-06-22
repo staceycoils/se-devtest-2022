@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import images from '../imageindex'
 
 export default function Header() {
@@ -14,14 +15,18 @@ export default function Header() {
         <br class='md:hidden'/> their schedule.</p>
       <section class='w-44 mx-auto
           md:w-fit'>
+        <Link to={'/product'}>
         <button class="bg-custom-lilac w-44 h-16 mb-4 justify-self-center font-bold 
             md:mr-4 
             hover:bg-gray-700 transition-all duration-500">
           Try For Free</button>
+        </Link>
+        <Link to={'/about'}>
         <button class="border w-44 h-16 justify-self-center font-bold 
             md:ml-4
             hover:bg-gray-700 transition-all duration-500">
           Learn More</button>
+        </Link>
       </section>
       <section class="relative overflow-x-hidden">
         <p class='absolute h-[300px] w-full top-20 bg-gradient-to-t from-black to-transparent z-50

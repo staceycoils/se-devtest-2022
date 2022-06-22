@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Partners() {
   return (
@@ -18,8 +19,10 @@ export default function Partners() {
           <img src={ require('./Vectors/logos_airbnb.png') } alt='airbnb logo'/>
           <img src={ require('./Vectors/logos_ibm.png') } alt='ibm logo'/>
         </section>
-      <button class="border-2 w-44 h-16 justify-self-center font-bold
-          hover:bg-gray-700 transition-all duration-500">All Partners</button>
+      <Link to={'/about'}>
+        <button class="border-2 w-44 h-16 justify-self-center font-bold
+            hover:bg-gray-700 transition-all duration-500">All Partners</button>
+      </Link>
     </div>
   )
 }

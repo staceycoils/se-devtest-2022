@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import images from '../imageindex'
 
 export default function Opentype() {
@@ -13,9 +14,11 @@ export default function Opentype() {
           lg:text-5xl lg:w-[500px] ">
             OpenType features and Variable Fonts
         </h3>
-        <button class="bg-custom-lilac w-44 h-12 mt-8 mb-20 justify-self-center font-bold
-            lg:mr-[250px]
-            hover:bg-gray-700 transition-all duration-500">Try For Free</button>
+        <Link to={'/product'}>
+          <button class="bg-custom-lilac w-44 h-12 mt-8 mb-20 justify-self-center font-bold
+              lg:mr-[250px]
+              hover:bg-gray-700 transition-all duration-500">Try For Free</button>
+        </Link>
       </p>
       <img src={images.prototyping} alt='prototype' class='px-12
           md:w-[589px] md:mt-8 md:justify-self-end md:px-0'/>
