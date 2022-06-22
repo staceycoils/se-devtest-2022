@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div id='navbar' class='sticky flex flex-row items-center h-24 w-fit transition-all duration-500
+    <div id='navbar' class='flex flex-row items-center h-24 w-full
         md:mt-4 md:h-16 md:w-[600px] mx-auto 
         lg:w-[1000px]'>
       <Link to={'/'}>
-        <img src={images.logo} alt='page logo' class='mr-12 w-40 
+        <img src={images.logo} alt='page logo' class='mr-16 ml-4 w-40
             md:ml-0 md:w-48'/>
       </Link>
       <section class='hidden font-bold text-center
@@ -19,15 +19,15 @@ export default function Navbar() {
         <p><Link to={'/about'}>About</Link></p>
         <p><Link to={'/contact'}>Contact</Link></p>
       </section>
-      <section class='w-40 flex flex-row 
+      <section class='w-40 flex flex-row justify-end
           md:block md:w-32 md:ml-auto'>
-        <Link to={'/login'}>
-          <button class='border rounded-sm h-12 basis-2/3 min-w-32 font-bold 
-              md:w-32
-              hover:bg-gray-700 transition-all duration-500'>
-              Login
-          </button>
-        </Link>
+          <Link to={'/login'} class='basis-2/3'>
+            <button class='border rounded-sm h-12 w-full min-w-32 font-bold 
+                md:w-32
+                hover:bg-gray-700 transition-all duration-500'>
+                Login
+            </button>
+          </Link>
         <button class='basis-1/3 pl-3 
             md:hidden'>
           <svg version='1.1' 
