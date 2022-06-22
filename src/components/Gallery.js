@@ -8,8 +8,8 @@ export default function Gallery() {
         md:mt-40 
         lg:mx-auto 
         xl:w-fit'>
-        <h3 class="text-5xl py-4 
-            md:text-6xl">Gallery</h3>
+        <h3 class='text-5xl py-4 
+            md:text-6xl'>Gallery</h3>
         <p class='pb-8 mx-auto w-80 
             md:text-2xl md:w-[800px]'>We focus on ergonomics and meeting you where you work. 
         <br />
@@ -57,8 +57,8 @@ export default function Gallery() {
           </p>
         </section>
         <Link to={'/product'}>
-          <button class="border-2 mt-8 w-44 h-16 justify-self-center font-bold
-              hover:bg-gray-700 transition-all duration-500">See More</button>
+          <button class='border-2 mt-8 w-44 h-16 justify-self-center font-bold
+              hover:bg-gray-700 transition-all duration-500'>See More</button>
         </Link>
     </div>
   )

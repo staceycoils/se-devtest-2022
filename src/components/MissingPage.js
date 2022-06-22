@@ -14,9 +14,9 @@ export default function MissingPage() {
               We apologise for the error, please check back later.
           </p>
           <Link to={'/'}>
-          <button class="bg-custom-lilac w-64 mb-12 h-16 my-4 justify-self-center font-bold 
+          <button class='bg-custom-lilac w-64 mb-12 h-16 my-4 justify-self-center font-bold 
             md:mb-0 md:w-44
-            hover:bg-gray-700 transition-all duration-500">
+            hover:bg-gray-700 transition-all duration-500'>
           Back</button>
           </Link>
       </section>

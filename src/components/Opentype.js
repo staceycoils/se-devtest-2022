@@ -9,15 +9,15 @@ export default function Opentype() {
         lg:x-[780px] lg:rounded-3xl  
         xl:w-[1219px]' >
       <p>
-        <h3 class="text-5xl py-4 w-96 mx-auto
+        <h3 class='text-5xl py-4 w-96 mx-auto
           md:w-[350px] md:h-[124px] md:py-0 md:text-4xl md:mt-20 md:justify-self-center md:mx-auto
-          lg:text-5xl lg:w-[500px] ">
+          lg:text-5xl lg:w-[500px] '>
             OpenType features and Variable Fonts
         </h3>
         <Link to={'/product'}>
-          <button class="bg-custom-lilac w-44 h-12 mt-8 mb-20 justify-self-center font-bold
+          <button class='bg-custom-lilac w-44 h-12 mt-8 mb-20 justify-self-center font-bold
               lg:mr-[250px]
-              hover:bg-gray-700 transition-all duration-500">Try For Free</button>
+              hover:bg-gray-700 transition-all duration-500'>Try For Free</button>
         </Link>
       </p>
       <img src={images.prototyping} alt='prototype' class='px-12

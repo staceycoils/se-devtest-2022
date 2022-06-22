@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 export default function Partners() {
   return (
     <div id='partners' class='text-center mt-40 mx-auto'>
-        <h3 class="text-5xl py-4 
-            md:text-6xl">Partners</h3>
+        <h3 class='text-5xl py-4 
+            md:text-6xl'>Partners</h3>
         <p class='pb-8 mx-16 
             md:mx-auto md:text-2xl'>We focus on ergonomics and meeting you where you work. 
         <br />
@@ -20,8 +20,8 @@ export default function Partners() {
           <img src={ require('./Vectors/logos_ibm.png') } alt='ibm logo'/>
         </section>
       <Link to={'/about'}>
-        <button class="border-2 w-44 h-16 justify-self-center font-bold
-            hover:bg-gray-700 transition-all duration-500">All Partners</button>
+        <button class='border-2 w-44 h-16 justify-self-center font-bold
+            hover:bg-gray-700 transition-all duration-500'>All Partners</button>
       </Link>
     </div>
   )

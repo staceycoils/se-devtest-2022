@@ -19,24 +19,24 @@ export default function Navbar() {
         <p><Link to={'/about'}>About</Link></p>
         <p><Link to={'/contact'}>Contact</Link></p>
       </section>
-      <section class="w-40 flex flex-row 
-          md:block md:w-32 md:ml-auto">
+      <section class='w-40 flex flex-row 
+          md:block md:w-32 md:ml-auto'>
         <Link to={'/login'}>
-          <button class="border rounded-sm h-12 basis-2/3 min-w-32 font-bold 
+          <button class='border rounded-sm h-12 basis-2/3 min-w-32 font-bold 
               md:w-32
-              hover:bg-gray-700 transition-all duration-500">
+              hover:bg-gray-700 transition-all duration-500'>
               Login
           </button>
         </Link>
-        <button class="basis-1/3 pl-3 
-            md:hidden">
-          <svg version="1.1" 
-            baseProfile="full"
-            width="44" height="26.5"
-            xmlns="http://www.w3.org/2000/svg">
-            <rect width="44" height="4" fill="white" />
-            <rect x="11" y="10" width="33" height="4" fill="white" />
-            <rect x="22" y="20" width="22" height="4" fill="white" />
+        <button class='basis-1/3 pl-3 
+            md:hidden'>
+          <svg version='1.1' 
+            baseProfile='full'
+            width='44' height='26.5'
+            xmlns='http://www.w3.org/2000/svg'>
+            <rect width='44' height='4' fill='white' />
+            <rect x='11' y='10' width='33' height='4' fill='white' />
+            <rect x='22' y='20' width='22' height='4' fill='white' />
           </svg>
         </button>
       </section>

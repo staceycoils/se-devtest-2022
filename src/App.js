@@ -29,7 +29,7 @@ function App() {
                 <Footer />
               </div>
             } />
-          <Route path="*" element={<MissingPage />} />
+          <Route path='*' element={<MissingPage />} />
         </Routes>
       </div>
     </BrowserRouter>
