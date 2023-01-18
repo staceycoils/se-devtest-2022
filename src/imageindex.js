@@ -1,30 +1,55 @@
+import logo from './components/Images/logo.png';
+import boards from './components/Images/boards.jpeg';
+import chats from './components/Images/chats.jpeg';
+import dashboards from './components/Images/dashboard.jpeg';
+import linechart from './components/Images/linechart.jpeg';
+import notifBoard from './components/Images/notifications.jpeg'
+import galleryOne from './components/Images/Gallery/galleryOne.jpeg';
+import galleryTwo from './components/Images/Gallery/galleryTwo.jpeg';
+import galleryThree from './components/Images/Gallery/galleryThree.jpeg';
+import galleryFour from './components/Images/Gallery/galleryFour.jpeg';
+import galleryFive from './components/Images/Gallery/galleryFive.jpeg';
+import gallerySix from './components/Images/Gallery/gallerySix.jpeg';
+import gallerySeven from './components/Images/Gallery/gallerySeven.jpeg';
+import galleryEight from './components/Images/Gallery/galleryEight.jpeg';
+import galleryNine from './components/Images/Gallery/galleryNine.jpeg';
+import galleryTen from './components/Images/Gallery/galleryTen.jpeg';
+import clientOne from './components/Images/Clients/clientOne.png';
+import clientTwo from './components/Images/Clients/clientTwo.png';
+import clientThree from './components/Images/Clients/clientThree.png';
+import clientFour from './components/Images/Clients/clientFour.png';
+import clientOneMob from './components/Images/Clients/clientOneMob.png';
+import clientTwoMob from './components/Images/Clients/clientTwoMob.png';
+import clientThreeMob from './components/Images/Clients/clientThreeMob.png';
+import clientFourMob from './components/Images/Clients/clientFourMob.png';
+import prototype from './components/Images/prototype.jpeg';
+
 const images = {
-    logo: 'https://s3-alpha-sig.figma.com/img/dee8/75d6/947120449f1b8aa45044619ccdd5e98a?Expires=1656288000&Signature=FgNn57L7CLmYstOHf8CmUzTGRZndYluPcQpeySbD~vOSx6P6CToCran2F1RELlZ~X1tYJIUbGVCfmSnPUtYIe8qtt7tS5s58FIfMIAHmLy9MJ3hOE~BlbUQj14341MlOkSkxiHjzD61xLBEkWRqluXstaxpiseqcyhNq1gZcLDYDbiJjyMYbsw8Cia7~qHzR8xOnzebyW8eW8xRQ8iLbL3vv9eAEA3IXDHdrjPo8fCFkw2A6qx9GSB80YdDf7HiUohezHYu3UMkOc5Imr2XBsxA7P15DJsFVID-Zte44HXs-nxKpaRHIKgRmmYXDbYMfoYj9q3pbIRIgkCIDZS5UbQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    dashboard: 'https://s3-alpha-sig.figma.com/img/88f2/ff89/d5fe423cb8411d51fdcf1780d5e37d71?Expires=1656288000&Signature=HwFGrvFz5isHG~AYy9hBUJ-h9duWZwK~CjfErhcMLdq2IJGtUZuIc6hHX~rX~FTCx2-DBEefdOwlqKYCerNMU1EYzzohvKStKeAY4VXIE6kn-~hmhh-UNlnPUqflI5NY8bAHaMQfgCSfBRwrow0fk9MPljM3KqpyksdKH0k6INmGEc0nZSjMSSa-0osVf2QviN57chLTBaJBab7QGecoQR6N9zUde9FsmxhwSugkdRp7tSooztt-Vby-gjXaz3l3SYFwzFtSnrmNHUAu7PYIZtOm-sEJlTRxQuM5yz~w79ifHMAtEBGQQ5HaqUMvIQ57ndDQtJ6KC~gkvQ7Lbfy2gQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    boards: 'https://s3-alpha-sig.figma.com/img/9e37/22c2/594fe571b14ee6f0d6c1717fa8911b83?Expires=1656288000&Signature=LDN482LHcXbujbUejxQQS1NKvTA-ZFI0Xo6oggNHUIwjVQIXzRcvOFS9wjDNuyRl1HnNVzyVQ5NLg6VyxEr2vfl7frkIALR~5VEDbmFUvH29-wsGY8AIF8D9DcEfdOnqKIOyT0Nydb5BANKrXVvRHGgWxZHblY65us8pb-8lThPGx8wosz5lgrRZPjsq8wKaAf3RceSkWT~f1nLE9CulJ1idNaiMN-XcGQxujWhiIMo3SkAEsMjIbCRlRQ3bL912Oob~ZMdbndb2JA5CobPGvURG0Cdb0zkftvGra2tWl03AVIoOk3sR92KgjsNcDv0WulIogOVwzYffo4MxCS~ZWA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    chatbot: 'https://s3-alpha-sig.figma.com/img/a4fd/a001/b894b682f22e0b319a945734e452cf4f?Expires=1656288000&Signature=MFDN3v6BztE4TW2lOCz~rX-Vg7YffJ003PSEv7EWlw6Y-fFtmroD8ncGntlBO-PO9bZDpACLl1Cx4IFjpD6yetYrF4697lIaWJfqYwj6YlLd86kftuJf~auyFoGR3f9pu1OiavnK88LRLg06O9FNMmYpmsAt2w2OH-ST8ZQwCq2Ja2IXd02CxekAtG997CyY0gbSYhJY6HRBSE3PkvtB5cdXfjeYejrUQe74ZHXHhwUfsG1lXznCKQBVZehuJyENV3zcjjG-Thgymboqg3z8y~2V8VYOJ-l7jef6aGZLCWG-lZ81CxDkSiZdWHXqE9o84jLXdSl76sQ1jKV00IKxXA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    linechart: 'https://s3-alpha-sig.figma.com/img/dbbc/fceb/d2042ac9204c06be050d2decfb58e0f5?Expires=1656288000&Signature=TzxDw4dqnsm5wNILIhomvkon3EXSlzERT42LcqNiWbUy75pGabBoe~1laREFEwtiRw~wyb-eslOwIulGmBM2kYzbMGkvpljGhkRU67ra86Uyw~WLvvXLWWW3L9eI0EBrt77A5Nykw6VbWxM1hk9H8eqkWcbny43qYqUEOCrKFsT5R26NEVA3HHnRQxhlNBwbcx3tXbe-JxZbdzazuTiWGAMCxEtQzOzMkJGqkADjzYtrX25glEv-0OmahoNwECHniHQ5IslgZSOVuAt-oPcKt75sL5f~m2MFhemyLHALHv0ivB0bE~figUJBphSg4Xi5u8UfSaJBwd73HSrlwrEG2A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    notifBoard: 'https://s3-alpha-sig.figma.com/img/972d/0c7b/b0c701d7e8eb01876de1a4a2c306df74?Expires=1656288000&Signature=e3AVpe7IxmrjdHC3tqmFy3T~azyy2aTXo53~qAcgMGxGSHGE~ZO3OWA~KGtKk8gkvvCmw~xadArWZtkrsy7TS5lJRXbCTZXuf3w2aALnu0zPJz4~DJattz~8zMO9DbcJ8r0-pjZJ7G6yBDk3Z8JwtaGj~ioylnpPPJR6hWp1OgcDTHACSRCTx2IcpD-F9LxSW47QlU0IF-A7wUoFZTznh5Q5MgPtb2MoP4AjDuh2EQ5EJb9XmJOzGFpQXZRUD1zJmXpqJ9TflMLs8TGtnQ7jzehDDszyPE9NGVxoBP6ZtaxPc3zYvH9tmUJJLC2LDBRjUEozeqhqO18jIIZbvRwIlg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    transactions: 'https://s3-alpha-sig.figma.com/img/00ec/f0ea/a42061ac8825d9f6dae40fa79dc24d61?Expires=1656288000&Signature=RMiCCbtRyEG4cEy1v50ZmRflddJPsZD31mhZO248hC14cTfg4HcyaC117WTQmbnzMJ4pg76kFR5QebH8MH5MyEBaYMh~NVjm-4YyzndGCHIzJCWl5E9IDlfoVhYx-I59ikWWa1ZYTfp655pR4EKiAiQAc8pWS~XT05rlbdUjPFA7U-ajnwZPl-Vxfxhx4dmURI7bdXKGK0QsSerdeFhLUrN1t~QsqXd~SzpvbNFsSHdwZgyFKKhrkw1gcW0gwsFhTClJAIkUL-e7yU2VijswdFy7MXx36s7EG1eunZhqzi2W-S3TI2VtskFf6qbd8qSjMZTlhGFGmHSCnh4wUB7z~Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    galleryOne: 'https://s3-alpha-sig.figma.com/img/bc29/2a5a/155fc7e77adb3436a39b2d62f45759a8?Expires=1656288000&Signature=G6Ftpe42BcsVk-~Gp8DxTFfUrQEQ0XiNOa-mwdhK3lIgccI-AvZbed224baIYaaCXG2SLXab7RtRW8c~7ry5L1pkLGtBrZXCLhJ~3p3IRpUmMWPu7Nc-CZ7Q7JUhY6hMSf8Qy4qHL3wRSNoU6W7LeaK622jBa0X3JiAlXQNth0RS9GVbzAEXJyL16LQmEpikTwBydrh39pMq8G6p-BwG4T25RP6EO3WcQhCiqjncB3ermJBtFXu1YRXgRreML4sK7tf5nQcx7Wj2EHKvu9W5HxTCtuW4zmhqrspYDfr6hzDTiEKyo3Q9sO-1hI6KwWYVOQhDysrgUYKSSCJ9c8x2BA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    galleryTwo: 'https://s3-alpha-sig.figma.com/img/cda4/0c54/f82d2b808f6700b68f42db68ff96903a?Expires=1656288000&Signature=XgeGgu9UDjvKxSyLZdR0ei23pVzhWIDGItWus1LvnVBF1BpEtLqe1VW0AtzTjtewsLV~SQtrsBo-pzseIBwunBQDjrtfwYaqKHDiJK~7lGajPyv2c2DVGayEwQe9X9UECkIzO4Cy9R5exUuf7wkbHwu6TCSRFbWIhZ~sbvm7beCSYZHjjV2NWRW3M1zYhc-FZUEdxUbwm4KA99dTCJz~msmeOKK2DFYtD8a9hnJoOwbvoMOh9Z~g9OC1KRJminmqj5cuDeHe81X9Sh7eiHOJ-piKUFArNXaRHRuBtj9iwqdTsO0IuIxvpEzpyNT7PblLCQzPIBi3hndGJ~VPCBnyGA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    galleryThree: 'https://s3-alpha-sig.figma.com/img/c84b/0bc9/f0cd0645ddfe46d952f4829339b9e458?Expires=1656288000&Signature=Zvxv066bPodAKw3FyhP4sVS7HzCKxdaHZkut6HlNE7ZNdDno4e14PiJ71illR4tMPGwWkXDudQcLLS0x2W~Ut2YCE26ZgXedqwRK0dYF7efPHTV-FT2mGQWcQ3xUn6grzLDSjgTtBeHY2wBy0qVvQxFey1Q0DhqQRrhpJX5PRJPlcvQUrmJftzO7C~ZUHGSk4PBlGhapfuk-T0MW4bP3oAMkATjg9MkocgE7Wxl1DxKZd26ndF0FHzYj6g84FDCTLRKXBSEOZqbltj4Vw38zUeWWqaUsusztiykSK-GnMUre24N6lNoXQikeMh2QKqwFnCe5Cgxx7yCvgcIVqgDsqQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    galleryFour: 'https://s3-alpha-sig.figma.com/img/ed7d/b16e/02fbe4c33c75be29bb352b9359b75951?Expires=1656288000&Signature=H-hApcdDoRNGm4dGHJV5F6SFMEfaJJmXtmWgei2jC8gD9bBHa5JU0hVR7S0cJosQCyynR~Ji~u5O6nv8kBWSalvr2s~EBeHfdRR5J-iRAE8m7pS9eVXZB20eLVhp5LpBEyVwuI7WWNsqKVaiB~xJnlxtjUK6s2EJSbZNmEt65C52-1D9Dx3P3gJkTw4DcjeVsnUx3EQVSyx~XmbshnXoB7eSKvBOyfjtObXCUyDrmadWwxR3U-C9A3kb2Xf7cuo5OYNOr6HclmoHpJCjTHF1NbRgtzVEAgEY9t-uZprUlFVSk6oA84I~qMH6xJp-2-DdUm5uooht1WMt4lXXa1Ie-A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    galleryFive: 'https://s3-alpha-sig.figma.com/img/b30f/c482/8eb589c809c1cc562f158726471b131a?Expires=1656288000&Signature=EodZXmzNHXicJzYPAE300ddoemXfiACQvYs77eJNivNFZ-oeXa~lj2H0QrPD4OUxBcKS6QAJ7~shZhmfpQQ-3OEiaY4lgus5vPDElproYXof-l4t76gDujBx1M0iHmTrkO1UtRGtF0ufz8cpBDJf7D29oAt1RxIQCswIPvOhbnX53Cv--0p1~4toOf7~4YdVUCeiFP4rGf6MZksxiNgDHHH2rCSX162t5NUDf-V~E9Nm-fcINr5nDH7d-bboAypZTY9iDWJ3lZ8YqPlsXlhA-T8JuGwFt3YBiJYmghDcNMhRpFeo7fflYgBA1LoJrA4U7ja13hqM5hG3U2Q-xyuRQA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    gallerySix: 'https://s3-alpha-sig.figma.com/img/329c/75f8/e1662b642008695d9ff4fe8803871bb5?Expires=1656288000&Signature=b3KmyV5j93OQz6nGZRo~WBqrI6kjf7kOo0KAyOrncx7Cz4gA5N2D91hV1~O68tgBJiIiGp4752zAAEHatWheLVgHaA043rv9mPAZp~COplGDpP8JOM~mmCYxXgipZkfh9sL5kacPS2C4OOnVbH0F5dg~jByQY~yneQQ4H-rjB8zLKszIDyjTbgJNacy2veNud4PxoMB8wVB980x2p5pSq65kll2Yu3cAp4TAeVGNxCw5E-bUXY1NkxSMGx~knZamgvPFYJZtN0VpWQLSIxFQdDUQFODF8Ke8hx~0qsaoUQMWR-KLQet30AriGwSANUsYCU8zeA6x14DxHXUQEC6zIw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    gallerySeven: 'https://s3-alpha-sig.figma.com/img/cd09/c577/6e3b3bf9807ddedd15060ae83a25f749?Expires=1656288000&Signature=SLdiWUKM0dgCSNde5SG3lZwKp0knm881w1Ed-FepDr5xm5eO1JJ~y-u3eciChuywziD7GFM02Coexqzk0ef~Mh~P40orD2XnC3MfPARET4qptmX~sMYYiiNFgZkQjJnFe7M8-ZXpqb4PW6NzLEuI94HgoEuaE9i89KQm6UBSu3BIffocZvnG6nctjHoW1AH0N9UGq1pTYcnRxDleJ6MLCWRXSCyPVduZoUq9t-nf9bbwRuR~ezs6b1-bEJCrnkpcKp6uVW8Wrw0XCdvdpYJEOjEoj461UNnz6OyOVCU85sEojMYRWjX9F-Jg6ldN7yAsq1yBzFWSRzrsJBFI3n8fPQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    galleryEight: 'https://s3-alpha-sig.figma.com/img/a9a1/5b80/ecc0a66752e2d05e09bd5fd41893c279?Expires=1656288000&Signature=CYruq7LQTBGaBfPY4yynUXs8mngZZzFEORRWjN2Q3V0HFRoRfhl7sL-NfOEyYHLod1hL22KgQGiYBvAkdQCIruYFTpeDK6983tn6edbC2y50tiKvSK8HIBVWMQR3JDqmXa2LjTBUHAeRMzcK6vdCEhuJZKlXeVroPLeGNPdM9cb-yFvXh5IfhfDf1TmdvQp8kyl~UMUUYOPmo3xI0~~kQFYEBrDoFZMkgPfYC~eT1rJCNThKpp04ERyYfw~ybxkGh-SwYfo5iLMDQ1pgG51BuRuZeko1cGrEabKOhmpKK7DmlnciU03kVLCxeafkmSrAqKiriufEwNtFGlwyw31nhw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    galleryNine: 'https://s3-alpha-sig.figma.com/img/3d1a/4e08/299e8c407e50a137d3f0d4822c7fbcce?Expires=1656288000&Signature=SVUzvc1M7WQSvMkOHRF7wc-A~R76wJEbxK3sBVvBfgDBcXwFeAx4BeyD8Oad3C41gLCY7NRDvFP2AJtrMQLmamebNil3qlYUDEs2ClNrKHZsfs8Yfrxn5vl3gaXEjYVmpiVLFbZtuOv2JkTc77357jBwQPcfaU7ca3L7X3B~EtNmaGLLuti6qsH0sL-PY4Cmy5W971IlOdFWPUC~g6G-zbwlJpBqDluon1TDterFCgRPgpkLDp7t8f~3O4S5awWklfbehGsHOn1Ce5Gp~MOJcaNvAKZb5kIuYjnvmleTN0LJmTQ1e6id7-drAy7KmmqcIHedMxuziR0ld8llqOXeVA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    galleryTen: 'https://s3-alpha-sig.figma.com/img/24d1/45d2/189638bc082ee58c4f018a0391686d22?Expires=1656288000&Signature=Ydb-llEnQhp4t6dAX5j0AkoYTFnSiprfG8RN9kourIIff6VljORIfv7ondc6opGvBYHkg3Pkw2p4fNwJmrCBtQrkYv0XtySnkcPo~XF7cQV4c2OaLz5mM8LeyQOzR~CpfFx0h8y8l0Ae0SzlZP83TcIGlmVxvLsG5EMSHK2b7ZBIj5hRmiwwlhYOd71M3xAN9tNLcseAHx9anuKlp9xkl9mNERGKkXRZbwCfNu5~nnLDtlOehXULQ5~zxXfKHZhvHRbnTLnr1TNoIfl5X5uhn1G391T0mMKZpmkiGJ-rbaiSMPkYASnypG~Z94dU7RX3-euXTRn~iiF3crKpNrdaWQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    clientOne: 'https://s3-alpha-sig.figma.com/img/1664/0dc1/2a055c78a67003b018f22d24fb03e964?Expires=1656288000&Signature=AunMXyuBYFp~Gle8ISEobqeS3fmPUnWUuEpyN3U4D9557yJ9ilIITIFhVb1BxdiRFR~CMwfKBoOzY53rwEe1ciNwAt5vIYKiJMZQmBXLlsGqye5dwngdj9mykXm7UxkpalfR40Svz9xe~16vJ9keY1It-GeWWwOTc9bcuUrCdfJ9c4WhcTdgm86PfyDQajOwf8PFrvYpwv4wgZ0TtjEOI1a238qW2RhqvvjXmY7CttfDyAvo9F-AashBwI-tiNOoT703oUG056DgAS4iwXWl9lQZMtCO3yl6rdapCyB8jbthX0ns92DtvrKeYnnXAGlVrukHKSuQ0mwspZ136z15oA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    clientTwo: 'https://s3-alpha-sig.figma.com/img/bfe5/8b21/510ca86917b9c3ccc0913f92357582be?Expires=1656288000&Signature=adEAtFv2R5FHleDjlDqrg41MlJaAZ52KLbae-itenIC2b2TO9GdeUbcLjFoZBBGEFqsNwHsDErGJPPdhmFBfoh0Rpbr69oJ~cj6G2WP~WVMVS3T8AWzIAQnet6dlt9rJ7leqS1h--sdfGOA0vmzZgcf3YUu1mKhMsQObAcFeFws009LTW2RBSN0oHDv7W8NJjSDC7V0aVc15yhbUKD~3Nj6rINAGBWUEyBukQX0gXsI9Baf708y6JxSjcyof5SKATeEurtuTFclIh1r3XQ3h1XaOoj0B92ulrQrebQRvG2L3X3d5D2nrV1zbKARpyLQSl4L6CS49-CVIuf~OiP~RGQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    clientThree: 'https://s3-alpha-sig.figma.com/img/b170/d098/6ffd2bedd0502693c4b159f2edb6f5f3?Expires=1656288000&Signature=HonbjQXkQBnblyO2-07W4fSHK2i0kAnGQyzYDFfpoQ61S1c6GgHF-c~saBzxkJv87VQreJdBs5PizWo3CrhZ9QLwW97HtiN1-AXk41axs4Z-nG4DtDvw6L-0OGeS0bxWdICPiGsG3G6FExvZJAA-Rhz0kS9MeVAvZksNDdkUq2PgP7k3MpCWsFlpLPSI6z6AamUlwHELJYiE734uAKtLgpLFnkr22ICSVZbzH7LJUU4s5hlw3WjOU4Zp4TQCxAmhV3-99xKs03koXrxQyj5aLicbikauTfzJNq0ARfn4te41KdabAqpUi2MyxQPPHaqRgYG~tLU-vxSN~S9eWVPFnQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    clientFour: 'https://s3-alpha-sig.figma.com/img/5fb0/a0fb/ba3c0c89bc4199d6dd2885aad8cee018?Expires=1656288000&Signature=bQTRoPwrZUK3Xg4sy2krVtyjyyEW~~Pa8IwZo7pPoeMOb1KRMnDYMpRcWtjlpZAn9SJqkysiywb3GS0EVMQOA3FsaleCf9XkNN2DGNudrQQjWnLwPTtT06Jz5bheqj5AxKPV6zL8YddYx99GXBrgvL46SFaFlSKAbeWF8WorrWDA1QfzUFyCKnzdvBXyTL3CLH5xR-2LpXqcponoMYz8JudeobgSDTfOBAUTjfdkGYFFRy43YjkMXDQtXauAQudTO0qRVw86x-qPrMVBbL~0WOP8EddECNRf-n2i8YknvoPCNe6CZJMwZ6mpe9Jfb6dfd3V39n7t-KJ~xi6vFZl4Og__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    clientOneMob: 'https://s3-alpha-sig.figma.com/img/7574/557d/242c488e7bd509ade54ef2a92e3ce86e?Expires=1656288000&Signature=U8kqzhLYeTRcG-104Uj0Ma89PGDBI3A~H8wIqKLvjzKIP9sO3MFHiiliYDok~IJhXbgRytd6QTYSTY-DcBd2pkm99WD-bdOUT9sOo9ZDeqH2ZnrFteLfnD3cQglVoj-fLz9DiZrlLuM9POIuzbelP1qIgqd4KfaW4Hdq4lSE-RPj0BYa8dB21THRGzo5VA1d-x~Zyw4KubXp5zgyiWtP5tq-aQXtR76tOFkq566wuhYRKbC9bVkHsJzL7FAwzb4Gd2MhRvewXK7GSKBUTrAyldoa8HM2cMLYp92JIh~RqPu8NU07zBrXANtQLJCVlx0kmYzUCYLuPnL~jOzNVYql8g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    clientTwoMob: 'https://s3-alpha-sig.figma.com/img/1a1d/6d83/41db6e21a03222b9c4000abb90b68498?Expires=1656288000&Signature=U-ElA5TgmJBnuEs7gi6W6U6SrvXnYFfBMUbZyj6plwa0jcWRlxhW39O4UxPf-qur45bL~c9ajhHW1p7RvsHL0eICSHtgZ1ODJBnmX7snXI402lMZuADS0c57w~p3~he-QoEavhI3t4O3O7Sa0-XsDzPoa4UCWVG-CGiFr1fWlKtsvyPQlIVmlBu0Bwx50ByoY7rPbX6ijDPa1Yh22HmRs8XjsoTBWAwNntypVimsWKiVtlqfC1cMVucQcZTFNZZOFPs3~yFYRl8oYMMYo0L66w8Chz0RKtKJVsa7KJur~arzKMqirOqDWOpXdriQTGmUktXLwFGibJyzAENavQWbgA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    clientThreeMob: 'https://s3-alpha-sig.figma.com/img/b170/d098/6ffd2bedd0502693c4b159f2edb6f5f3?Expires=1656288000&Signature=HonbjQXkQBnblyO2-07W4fSHK2i0kAnGQyzYDFfpoQ61S1c6GgHF-c~saBzxkJv87VQreJdBs5PizWo3CrhZ9QLwW97HtiN1-AXk41axs4Z-nG4DtDvw6L-0OGeS0bxWdICPiGsG3G6FExvZJAA-Rhz0kS9MeVAvZksNDdkUq2PgP7k3MpCWsFlpLPSI6z6AamUlwHELJYiE734uAKtLgpLFnkr22ICSVZbzH7LJUU4s5hlw3WjOU4Zp4TQCxAmhV3-99xKs03koXrxQyj5aLicbikauTfzJNq0ARfn4te41KdabAqpUi2MyxQPPHaqRgYG~tLU-vxSN~S9eWVPFnQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    clientFourMob: 'https://s3-alpha-sig.figma.com/img/08c6/dedc/f59582f17b7e76d03affeec0e6cb4f62?Expires=1656288000&Signature=NJ73hZlNQkQL~ovwBrc9EMydTfPQIyJGMS4XRHikKADMNfgKbdYGyhf537A6HioSbjV~~3RyCMknfZfdODo~Q~pQJzO7IjVwd~3luLLmCwtwvGZMRqTxNa9VSqVi16L163IjWf70ONQEwtScKVFCoWwmmOFt5Nm4rgNFyPupoP8I3XTePFEOfcWVLpG4PPzcYR9NR9YTooX~ty37j0sypYpT-I-c-qt43ShhMfUNoAIoIXqs4soXKQjQg0q7hZAR4TnDzTV~7Gman2NCDABqL6gq-N8I7tmsj~7oRJJtJ~SFw9BMM-48rV1S73Bhl1Ivwtbzv57NwxVCgb6-q5dUXw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
-    prototyping: 'https://s3-alpha-sig.figma.com/img/45a7/5c85/3ba895ffe41974a1a8c6bed1ea5eb9a3?Expires=1656288000&Signature=d~szcj0McitEK4cA0o57nWAV1wGMCrR9ox6qATgHlwqDkuFfIaGlOKcaY-iqRan9LP6MtorzrH0U7ux0vmC3fcIV4PavpdSGr8J6Q~ybpXzLK0MjDr7FPmWkt3u7MCuCSdWEsYq9xA7vjtUqoFFNqzh-QnkDLSOSwxBNh7hJbCS-OW8d9EzR9j3EXlYbZ3NPeoymf09L-PO-JYq~W-mY04kbjuUl3~xgPxKjPKhPpuysuyNTrN20dqMyyDxNLhrSPTM2zcvcYtTO~d6c03zlGLI2uGfh-txDYqLEL4YIuwTERmrF7J5-~nzLCVyZRfsGIWQsq9ZeKoP0hKw0gqeMdA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA',
+    'logo': logo,
+    'dashboard': dashboards,
+    'boards': boards,
+    'chatbot': chats,
+    'linechart': linechart,
+    'notifBoard': notifBoard,
+    'galleryOne': galleryOne,
+    'galleryTwo': galleryTwo,
+    'galleryThree': galleryThree,
+    'galleryFour': galleryFour,
+    'galleryFive': galleryFive,
+    'gallerySix': gallerySix,
+    'gallerySeven': gallerySeven,
+    'galleryEight': galleryEight,
+    'galleryNine': galleryNine,
+    'galleryTen': galleryTen,
+    'clientOne': clientOne,
+    'clientTwo': clientTwo,
+    'clientThree': clientThree,
+    'clientFour': clientFour,
+    'clientOneMob': clientOneMob,
+    'clientTwoMob': clientTwoMob,
+    'clientThreeMob': clientThreeMob,
+    'clientFourMob': clientFourMob,
+    'prototyping': prototype,
     
 }
 
